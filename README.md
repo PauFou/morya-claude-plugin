@@ -25,8 +25,9 @@ you only get the modules you subscribe to.
 - Authentication is OAuth 2.1 with PKCE. This repository contains **no keys,
   tokens or credentials** — only the public address of the MCP server.
 - Nothing is ever modified without you: every write (adding a favourite,
-  marking a rent as paid…) returns a confirmation link, and happens only once
-  you confirm it inside MORYA.
+  marking a rent as paid…) is first proposed in the conversation, and happens
+  only once you say yes. The confirmation token is single-use, expires after
+  ten minutes and is bound to the exact action you approved.
 - You can revoke Claude's access at any time from your MORYA settings; the
   revocation applies to the very next call.
 - Privacy policy: https://morya.app/confidentialite · Contact: contact@morya.app
