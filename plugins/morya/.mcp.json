@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "morya": {
+      "type": "http",
+      "url": "https://invest.morya.app/mcp"
+    }
+  }
+}

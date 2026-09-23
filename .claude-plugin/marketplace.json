@@ -1,0 +1,15 @@
+{
+  "name": "morya",
+  "owner": { "name": "MORYA", "email": "contact@morya.app" },
+  "metadata": { "description": "Les outils MORYA pour Claude : marché immobilier, annonces, gestion locative, prospection." },
+  "plugins": [
+    {
+      "name": "morya",
+      "source": "./plugins/morya",
+      "description": "Connecte Claude à MORYA : un seul connecteur pour Invest, Pilot, Stay et Radar, limité aux modules de votre abonnement.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": ["immobilier", "real-estate", "france", "mcp", "dvf", "gestion-locative"]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "morya",
+  "version": "1.0.0",
+  "description": "Connecte Claude à MORYA : un seul connecteur pour Invest, Pilot, Stay et Radar, limité aux modules de votre abonnement.",
+  "author": {
+    "name": "MORYA",
+    "email": "contact@morya.app",
+    "url": "https://morya.app"
+  },
+  "homepage": "https://morya.app",
+  "license": "MIT",
+  "keywords": [
+    "immobilier",
+    "real-estate",
+    "france",
+    "mcp"
+  ],
+  "repository": "https://github.com/PauFou/morya-claude-plugin"
+}
