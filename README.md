@@ -4,7 +4,7 @@ The official MORYA plugin for Claude. It connects Claude to your MORYA account
 through MORYA's remote MCP server, and teaches Claude how to use it well.
 
 MORYA is a French real-estate intelligence suite: market prices and rents
-(DVF, INSEE, DPE), property listings, rental yield, rental management (Pilot),
+(DVF, INSEE, DPE), property listings, rental yield, bank-ready financing files, rental management (Pilot),
 short-term rentals (Stay) and off-market prospecting (Radar).
 
 ## Install
@@ -19,6 +19,12 @@ In Claude Code:
 The first time a MORYA tool is used, Claude opens the MORYA sign-in and
 authorization page. Access follows your subscription, product by product:
 you only get the modules you subscribe to.
+
+## Always up to date
+
+This repository only holds the server address and usage guidance. The tools
+themselves are served live by MORYA: new tools and improvements reach you
+automatically, without reinstalling.
 
 ## Security and privacy
 

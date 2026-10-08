@@ -1,6 +1,6 @@
 {
   "name": "morya",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Connecte Claude à MORYA : un seul connecteur pour Invest, Pilot, Stay et Radar, limité aux modules de votre abonnement.",
   "author": {
     "name": "MORYA",
